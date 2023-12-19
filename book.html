@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- header section starts -->
+  <section class="header">
+    <a href="index.html" class="logo">travel.</a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="package.html">Package</a>
+        <a href="book.html">Book</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+  </section>
+  <!-- header section ends -->
+
+  <div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
+   <h1>Book Now</h1>
+  </div>
+
+<!-- booking section starts  -->
+
+<section class="booking">
+
+    <h1 class="heading-title">book your trip!</h1>
+ 
+    <form action="book_form.php" method="post" class="book-form">
+ 
+       <div class="flex">
+          <div class="inputBox">
+             <span>name :</span>
+             <input type="text" placeholder="Enter your Name" name="name">
+          </div>
+          <div class="inputBox">
+             <span>email :</span>
+             <input type="email" placeholder="Enter your Email" name="email">
+          </div>
+          <div class="inputBox">
+             <span>phone :</span>
+             <input type="number" placeholder="Enter your Number" name="phone">
+          </div>
+          <div class="inputBox">
+             <span>address :</span>
+             <input type="text" placeholder="Enter your Address" name="address">
+          </div>
+          <div class="inputBox">
+             <span>Your Destination :</span>
+             <input type="text" placeholder="Enter your Destination" name="location">
+          </div>
+          <div class="inputBox">
+             <span>how many members :</span>
+             <input type="number" placeholder="How many Members" name="guests">
+          </div>
+          <div class="inputBox">
+             <span>Trip Starts on :</span>
+             <input type="date" name="arrivals">
+          </div>
+          <div class="inputBox">
+             <span>Returning back on :</span>
+             <input type="date" name="leaving">
+          </div>
+       </div>
+ 
+       <input type="submit" value="submit" class="btn" name="send">
+ 
+    </form>
+ 
+ </section>
+ 
+ <!-- booking section ends -->
+
+<!-- Footer section starts -->
+<section class="footer">
+   <div class="box-container">
+       <div class="box">
+           <h3>Quick Links</h3>
+            <a href="index.html"><i class="fas fa-angle-right"></i> Home</a>
+            <a href="about.html"><i class="fas fa-angle-right"></i> About</a>
+            <a href="package.html"><i class="fas fa-angle-right"></i> Package</a>
+            <a href="book.html"><i class="fas fa-angle-right"></i> Book</a>
+       </div>
+       <div class="box">
+           <h3>Extra Links</h3>
+            <a href="#"><i class="fas fa-angle-right"></i> Ask Questions</a>
+            <a href="#"><i class="fas fa-angle-right"></i> FAQ</a>
+            <a href="#"><i class="fas fa-angle-right"></i> Privacy Policy</a>
+            <a href="#"><i class="fas fa-angle-right"></i> Terms of use</a>
+       </div>
+       <div class="box">
+           <h3>Contact Info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +91 6374279928</a>
+            <a href="#"><i class="fas fa-envelope"></i> sakthivelravi23@gmail.com</a>
+            <a href="#"><i class="fas fa-map"></i> Perambalur,Tamilnadu,India</a>
+       </div>
+       <div class="box">
+           <h3>Follow us</h3>
+           <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+           <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+           <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+           <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+       </div>
+   </div>
+   <div class="credit">created by <span>Sakthivel</span></div>
+</section>
+<!-- Footer section ends -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
